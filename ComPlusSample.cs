@@ -26,7 +26,7 @@ namespace COMPlusServicesExample
             //use Testing11@@ as SA user password
             SqlConnection databaseConnection = new SqlConnection("server=localhost;Trusted_Connection=false;uid=sa;pwd=Testing11@@;database=WideWorldImporters");
             return databaseConnection;
-        }
+        } 
 
         //gets a dataset with the Orders
         public DataSet GetOrderDetails(int OrderId)
