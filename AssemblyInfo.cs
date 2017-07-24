@@ -55,7 +55,7 @@ using System.EnterpriseServices;
 //       documentation for more information on this.
 //
 [assembly: AssemblyDelaySign(false)]
-[assembly: AssemblyKeyFile("c:\\complus\\ComPlusKey.snk")]
+[assembly: AssemblyKeyFile("c:\\projs\\complus\\ComPlusKey.snk")]
 
 [assembly: AssemblyKeyName("")]
 
