@@ -61,6 +61,6 @@ using System.EnterpriseServices;
 
 //Here are attributes added to the assembly for the purposes of using COM+
 [assembly: ApplicationActivation(ActivationOption.Server)]
-[assembly: ApplicationID("A68964D3-544A-40F0-B11F-05D9D752941D")]
+//[assembly: ApplicationID("A68964D3-544A-40F0-B11F-05D9D752941D")]
 [assembly: ApplicationName("Service Fabric COM+ Example")]
 [assembly: Description("An example of running a COM+ application in Windows Container on top of Service Fabric")]

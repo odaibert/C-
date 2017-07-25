@@ -24,7 +24,8 @@ namespace COMPlusServicesExample
         private SqlConnection CreateConnection()
         {
             //use Testing11@@ as SA user password
-            SqlConnection databaseConnection = new SqlConnection("server=localhost;Trusted_Connection=false;uid=sa;pwd=Testing11@@;database=WideWorldImporters");
+            string SQLIP = "172.22.34.185";
+            SqlConnection databaseConnection = new SqlConnection("server=" + SQLIP + ";Trusted_Connection=false;uid=sa;pwd=Testing11@@;database=WideWorldImporters");
             return databaseConnection;
         } 
 
@@ -73,7 +74,9 @@ namespace COMPlusServicesExample
             //method returns a connection object for the Northwind database.
             private SqlConnection CreateConnection()
             {
-                SqlConnection databaseConnection = new SqlConnection("server=localhost;Trusted_Connection=false;uid=sa;pwd=Testing11@@;database=WideWorldImporters");
+                //use Testing11@@ as SA user password
+                string SQLIP = "172.22.34.185";
+                SqlConnection databaseConnection = new SqlConnection("server=" + SQLIP + ";Trusted_Connection=false;uid=sa;pwd=Testing11@@;database=WideWorldImporters");
                 return databaseConnection;
             }
 
